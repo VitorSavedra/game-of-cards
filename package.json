@@ -1,0 +1,19 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "debug": "nodemon --inspect ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "nodemon": "^2.0.3"
+  }
+}
